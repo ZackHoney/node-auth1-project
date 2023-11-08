@@ -31,7 +31,7 @@ async function checkUsernameFree(req, res, next) {
     }
   } catch(err) {
     next(err)
-  }
+  } 
 }
 
 /*
